@@ -1,0 +1,223 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{b1efba60-8e94-45aa-ba93-25fb0e4f95ed}</UniqueIdentifier>
+      <Extensions>cpp;c</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{b22a06c7-1da5-4241-8572-e70892e05abe}</UniqueIdentifier>
+      <Extensions>h</Extensions>
+    </Filter>
+    <Filter Include="Inline Files">
+      <UniqueIdentifier>{8e8e9657-81c0-4924-b5fd-d2df2a4ed9d5}</UniqueIdentifier>
+      <Extensions>inl</Extensions>
+    </Filter>
+    <Filter Include="Shader Files">
+      <UniqueIdentifier>{7df9ed5c-4341-4d6b-9aa7-e81a4a823c91}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shader Files\Pixel Programs">
+      <UniqueIdentifier>{e265f686-fd56-45ef-929f-a3c5395a7917}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shader Files\Vertex Programs">
+      <UniqueIdentifier>{50b055a1-7c8f-4421-bc61-a2e73843e69c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Wm4SoftClipper.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Wm4SoftDrawElements.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Wm4SoftEdgeBuffers.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Wm4SoftFrameBuffer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Wm4SoftPixelShader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Wm4SoftPolygonOffsetState.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Wm4SoftRenderer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Wm4SoftResourcesED.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Wm4SoftResourcesLR.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Wm4SoftSampler.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Wm4SoftSampler1.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Wm4SoftSampler2.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Wm4SoftSampler3.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Wm4SoftSamplerCube.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Wm4SoftSamplerProj.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Wm4SoftShaderUtility.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Wm4SoftTransformation.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Wm4SoftVertexShader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Wm4WinSoftRenderer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="WmspWrapper.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Wm4SoftRendererPCH.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Wm4SoftArray.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Wm4SoftFrameBuffer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Wm4SoftRenderer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Wm4SoftResources.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Wm4SoftSampler.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Wm4SoftSampler1.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Wm4SoftSampler2.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Wm4SoftSampler3.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Wm4SoftSamplerCube.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Wm4SoftSamplerProj.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Wm4SoftShaderLibrary.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Wm4SoftShaderLibraryMCR.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Wm4SoftShaderUtility.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Wm4SoftUtilityMCR.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Wm4WinSoftRenderer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Wm4SoftRendererLIB.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Wm4SoftRendererPCH.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Wm4SoftArray.inl">
+      <Filter>Inline Files</Filter>
+    </None>
+    <None Include="Wm4SoftFrameBuffer.inl">
+      <Filter>Inline Files</Filter>
+    </None>
+    <None Include="Wm4SoftRenderer.inl">
+      <Filter>Inline Files</Filter>
+    </None>
+    <None Include="Wm4SoftSampler2.inl">
+      <Filter>Inline Files</Filter>
+    </None>
+    <None Include="Wm4SoftSampler3.inl">
+      <Filter>Inline Files</Filter>
+    </None>
+    <None Include="Wm4SoftSamplerProj.inl">
+      <Filter>Inline Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="Wmsp\p_Default.sft.wmsp">
+      <Filter>Shader Files\Pixel Programs</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Wmsp\p_MaterialTexture.sft.wmsp">
+      <Filter>Shader Files\Pixel Programs</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Wmsp\p_PassThrough3.sft.wmsp">
+      <Filter>Shader Files\Pixel Programs</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Wmsp\p_PassThrough4.sft.wmsp">
+      <Filter>Shader Files\Pixel Programs</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Wmsp\p_T0s1d0T1s1d1.sft.wmsp">
+      <Filter>Shader Files\Pixel Programs</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Wmsp\p_T0s1d0T1s2d0.sft.wmsp">
+      <Filter>Shader Files\Pixel Programs</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Wmsp\p_T0s1d0T1s3d1.sft.wmsp">
+      <Filter>Shader Files\Pixel Programs</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Wmsp\p_Texture.sft.wmsp">
+      <Filter>Shader Files\Pixel Programs</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Wmsp\v_Default.sft.wmsp">
+      <Filter>Shader Files\Vertex Programs</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Wmsp\v_L1a.sft.wmsp">
+      <Filter>Shader Files\Vertex Programs</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Wmsp\v_L1d.sft.wmsp">
+      <Filter>Shader Files\Vertex Programs</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Wmsp\v_L1p.sft.wmsp">
+      <Filter>Shader Files\Vertex Programs</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Wmsp\v_L1s.sft.wmsp">
+      <Filter>Shader Files\Vertex Programs</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Wmsp\v_Material.sft.wmsp">
+      <Filter>Shader Files\Vertex Programs</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Wmsp\v_MaterialTexture.sft.wmsp">
+      <Filter>Shader Files\Vertex Programs</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Wmsp\v_T0d2T1d2PassThrough.sft.wmsp">
+      <Filter>Shader Files\Vertex Programs</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Wmsp\v_Texture.sft.wmsp">
+      <Filter>Shader Files\Vertex Programs</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Wmsp\v_VertexColor3.sft.wmsp">
+      <Filter>Shader Files\Vertex Programs</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Wmsp\v_VertexColor4.sft.wmsp">
+      <Filter>Shader Files\Vertex Programs</Filter>
+    </CustomBuild>
+  </ItemGroup>
+</Project>
